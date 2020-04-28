@@ -44,41 +44,113 @@
         <b style="color:#FFFFFF"><font size="5"> Monitoring Cuaca</font><br>
 		Wisata Paralayang Gunung Banyak, Kota Batu </br></br>
 	</nav>
+	</nav>
 
   <main role="main">
     <div class="container-fluid">
         <div class="row">
+		<!-- /*Temperature*/ -->
             <div class="col-md-4">
-                <iframe width="430" height="260" style="border: 1px solid #cccccc;" src="https://thingspeak.com/channels/891928/widgets/130704"></iframe>
+			<h3 class="text-center text-dark">Temperatur</h3>
+                <iframe width="430" height="260" style="border: 1px solid #cccccc;" src="https://thingspeak.com/channels/941523/widgets/174714"></iframe>
             </div>
-
+		<!-- Humidity -->
             <div class="col-md-4">
-                <iframe width="430" height="260" style="border: 1px solid #cccccc;" src="https://thingspeak.com/channels/891928/widgets/130705"></iframe>
+			<h3 class="text-center text-dark">Kelembaban</h3>
+                <iframe width="430" height="260" style="border: 1px solid #cccccc;" src="https://thingspeak.com/channels/941523/widgets/174715"></iframe>
             </div>
-
+		<!-- Altitude -->
             <div class="col-md-4">
-                <iframe width="430" height="260" style="border: 1px solid #cccccc;" src="https://thingspeak.com/channels/891928/widgets/130706"></iframe>
+			<h3 class="text-center text-dark">Ketinggian</h3>
+                <iframe width="430" height="260" style="border: 1px solid #cccccc;" src="https://thingspeak.com/channels/941523/widgets/174716"></iframe>
             </div>
         </div>
 
         <div class="row">
+		<!-- Arah Angin -->
             <div class="col-md-4">
-                <iframe width="430" height="260" style="border: 1px solid #cccccc;" src="https://thingspeak.com/channels/891928/widgets/130707"></iframe>
+				<h3 class="text-center text-dark">Arah Angin</h3>
+                <iframe width="430" height="260" style="border: 1px solid #cccccc;" src="https://thingspeak.com/channels/941523/widgets/174717"></iframe>
             </div>
-
+		<!-- Kecepatan Angin -->
             <div class="col-md-4">
-                <iframe width="430" height="260" style="border: 1px solid #cccccc;" src="https://thingspeak.com/channels/891928/widgets/130709"></iframe>
+			<h3 class="text-center text-dark">Hujan</h3>
+                <iframe width="430" height="260" style="border: 1px solid #cccccc;" src="https://thingspeak.com/channels/941523/widgets/174719"></iframe>
             </div>
-
+		<!-- Sensor Hujan -->
             <div class="col-md-4">
-                <iframe width="430" height="260" style="border: 1px solid #cccccc;" src="https://thingspeak.com/channels/891928/widgets/130710"></iframe>
-            </div>
-			
-			<div class="col-md-5">
-                <iframe width="430" height="260" style="border: 1px solid #cccccc;" src="https://thingspeak.com/channels/891928/widgets/130712"></iframe>
+			<h3 class="text-center text-dark">Kecepatan Angin</h3>
+                <iframe width="430" height="260" style="border: 1px solid #cccccc;" src="https://thingspeak.com/channels/941523/widgets/174720"></iframe>
             </div>
         </div>
-    </div>
+	</div>
+		<nav class="navbar navbar-dark bg-dark batasNav">
+		<span class="navbar-brand mb-0 h1">Monitoring Tegangan dan Arus</span>
+        <!-- <b style="color:#FFFFFF"><font size="5"> Monitoring Tegangan, Arus dan Power</font><br> -->
+		</br></br>
+		</nav>
+		</nav>
+	<div class="container-fluid">
+		<div class="row">
+		<!-- /*Tegangan*/ -->
+            <div class="col-md-4">
+			<h3 class="text-center text-dark">Tegangan</h3>
+                <iframe width="430" height="260" style="border: 1px solid #cccccc;" src="https://thingspeak.com/channels/941523/widgets/174721"></iframe>
+            </div>
+		<!-- Arus -->
+            <div class="col-md-4">
+			<h3 class="text-center text-dark">Arus</h3>
+                <iframe width="430" height="260" style="border: 1px solid #cccccc;" src="https://thingspeak.com/channels/941523/widgets/174722"></iframe>
+            </div>
+			<!-- keter -->
+			<div class="col-md-4">
+				<h3 class="text-center text-dark">Keterangan Arah Angin</h3>
+				<div class="row">
+					<div class="col-md-6">
+						<ul class="list-group text-dark">
+						  <li class="list-group-item d-flex justify-content-between align-items-center">
+							Barat Laut
+							<span class="badge badge-primary badge-pill">1</span>
+						  </li>
+						  <li class="list-group-item d-flex justify-content-between align-items-center">
+							Barat
+							<span class="badge badge-primary badge-pill">2</span>
+						  </li>
+						  <li class="list-group-item d-flex justify-content-between align-items-center">
+							Barat Daya
+							<span class="badge badge-primary badge-pill">3</span>
+						  </li>
+						  <li class="list-group-item d-flex justify-content-between align-items-center">
+							Selatan
+							<span class="badge badge-primary badge-pill">4</span>
+						  </li>
+						</ul>
+					</div>
+					<div class="col-md-6">
+						<ul class="list-group text-dark">
+							<li class="list-group-item d-flex justify-content-between align-items-center">
+								Tenggara
+								<span class="badge badge-primary badge-pill">5</span>
+							</li>
+							<li class="list-group-item d-flex justify-content-between align-items-center">
+								Timur
+								<span class="badge badge-primary badge-pill">6</span>
+							</li>
+							<li class="list-group-item d-flex justify-content-between align-items-center">
+								Timur Laut
+								<span class="badge badge-primary badge-pill">7</span>
+							</li>
+							<li class="list-group-item d-flex justify-content-between align-items-center">
+								Utara
+								<span class="badge badge-primary badge-pill">8</span>
+							</li>
+						</ul>					
+					</div>
+				</div>
+            </div>
+        </div>
+	</div>
+	
   </main>
 
 </body>
