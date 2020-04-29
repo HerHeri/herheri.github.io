@@ -2,11 +2,10 @@
   margin-bottom: 20px !important;
 }
 
-body {
-	width: 110vw;
-}
-
 @media only screen and (max-width: 768px) {
+	body {
+	width: 100%;
+}
   /* For mobile phones: */
 iframe {
   position: relative;
